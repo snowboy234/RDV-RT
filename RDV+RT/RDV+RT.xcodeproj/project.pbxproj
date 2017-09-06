@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF5552461F603B24009CC36A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552451F603B24009CC36A /* main.m */; };
+		FF5552491F603B24009CC36A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552481F603B24009CC36A /* AppDelegate.m */; };
+		FF5552511F603B24009CC36A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5552501F603B24009CC36A /* Assets.xcassets */; };
+		FF5552541F603B24009CC36A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5552521F603B24009CC36A /* LaunchScreen.storyboard */; };
+		FF5552801F603B41009CC36A /* RDVTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552611F603B41009CC36A /* RDVTabBar.m */; };
+		FF5552811F603B41009CC36A /* RDVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552631F603B41009CC36A /* RDVTabBarController.m */; };
+		FF5552821F603B41009CC36A /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552651F603B41009CC36A /* RDVTabBarItem.m */; };
+		FF5552831F603B41009CC36A /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552671F603B41009CC36A /* UIImage+Image.m */; };
+		FF5552841F603B41009CC36A /* UIView+TWFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552691F603B41009CC36A /* UIView+TWFrame.m */; };
+		FF5552851F603B41009CC36A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF55526C1F603B41009CC36A /* MainViewController.m */; };
+		FF5552861F603B41009CC36A /* NaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF55526E1F603B41009CC36A /* NaviViewController.m */; };
+		FF5552871F603B41009CC36A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552711F603B41009CC36A /* BaseViewController.m */; };
+		FF5552881F603B41009CC36A /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552731F603B41009CC36A /* FourViewController.m */; };
+		FF5552891F603B41009CC36A /* One1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552751F603B41009CC36A /* One1ViewController.m */; };
+		FF55528A1F603B41009CC36A /* One2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552771F603B41009CC36A /* One2ViewController.m */; };
+		FF55528B1F603B41009CC36A /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552791F603B41009CC36A /* OneViewController.m */; };
+		FF55528C1F603B41009CC36A /* PartentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF55527B1F603B41009CC36A /* PartentViewController.m */; };
+		FF55528D1F603B41009CC36A /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF55527D1F603B41009CC36A /* ThreeViewController.m */; };
+		FF55528E1F603B41009CC36A /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF55527F1F603B41009CC36A /* TwoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF5552411F603B24009CC36A /* RDV+RT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RDV+RT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5552451F603B24009CC36A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF5552471F603B24009CC36A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF5552481F603B24009CC36A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF5552501F603B24009CC36A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF5552531F603B24009CC36A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF5552551F603B24009CC36A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF55525D1F603B41009CC36A /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		FF55525E1F603B41009CC36A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FF5552601F603B41009CC36A /* RDVTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBar.h; sourceTree = "<group>"; };
+		FF5552611F603B41009CC36A /* RDVTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBar.m; sourceTree = "<group>"; };
+		FF5552621F603B41009CC36A /* RDVTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarController.h; sourceTree = "<group>"; };
+		FF5552631F603B41009CC36A /* RDVTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarController.m; sourceTree = "<group>"; };
+		FF5552641F603B41009CC36A /* RDVTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarItem.h; sourceTree = "<group>"; };
+		FF5552651F603B41009CC36A /* RDVTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarItem.m; sourceTree = "<group>"; };
+		FF5552661F603B41009CC36A /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		FF5552671F603B41009CC36A /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		FF5552681F603B41009CC36A /* UIView+TWFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TWFrame.h"; sourceTree = "<group>"; };
+		FF5552691F603B41009CC36A /* UIView+TWFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TWFrame.m"; sourceTree = "<group>"; };
+		FF55526B1F603B41009CC36A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		FF55526C1F603B41009CC36A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		FF55526D1F603B41009CC36A /* NaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaviViewController.h; sourceTree = "<group>"; };
+		FF55526E1F603B41009CC36A /* NaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaviViewController.m; sourceTree = "<group>"; };
+		FF5552701F603B41009CC36A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		FF5552711F603B41009CC36A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		FF5552721F603B41009CC36A /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		FF5552731F603B41009CC36A /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		FF5552741F603B41009CC36A /* One1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = One1ViewController.h; sourceTree = "<group>"; };
+		FF5552751F603B41009CC36A /* One1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = One1ViewController.m; sourceTree = "<group>"; };
+		FF5552761F603B41009CC36A /* One2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = One2ViewController.h; sourceTree = "<group>"; };
+		FF5552771F603B41009CC36A /* One2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = One2ViewController.m; sourceTree = "<group>"; };
+		FF5552781F603B41009CC36A /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		FF5552791F603B41009CC36A /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		FF55527A1F603B41009CC36A /* PartentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartentViewController.h; sourceTree = "<group>"; };
+		FF55527B1F603B41009CC36A /* PartentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartentViewController.m; sourceTree = "<group>"; };
+		FF55527C1F603B41009CC36A /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		FF55527D1F603B41009CC36A /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		FF55527E1F603B41009CC36A /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		FF55527F1F603B41009CC36A /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF55523E1F603B24009CC36A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF5552381F603B24009CC36A = {
+			isa = PBXGroup;
+			children = (
+				FF5552431F603B24009CC36A /* RDV+RT */,
+				FF5552421F603B24009CC36A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF5552421F603B24009CC36A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF5552411F603B24009CC36A /* RDV+RT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF5552431F603B24009CC36A /* RDV+RT */ = {
+			isa = PBXGroup;
+			children = (
+				FF55525B1F603B41009CC36A /* Custom */,
+				FF5552471F603B24009CC36A /* AppDelegate.h */,
+				FF5552481F603B24009CC36A /* AppDelegate.m */,
+				FF5552501F603B24009CC36A /* Assets.xcassets */,
+				FF5552521F603B24009CC36A /* LaunchScreen.storyboard */,
+				FF5552551F603B24009CC36A /* Info.plist */,
+				FF5552441F603B24009CC36A /* Supporting Files */,
+			);
+			path = "RDV+RT";
+			sourceTree = "<group>";
+		};
+		FF5552441F603B24009CC36A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF5552451F603B24009CC36A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF55525B1F603B41009CC36A /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				FF55525C1F603B41009CC36A /* Libs */,
+				FF55526A1F603B41009CC36A /* Main */,
+				FF55526F1F603B41009CC36A /* Vc */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		FF55525C1F603B41009CC36A /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				FF55525D1F603B41009CC36A /* Define.h */,
+				FF55525E1F603B41009CC36A /* PrefixHeader.pch */,
+				FF55525F1F603B41009CC36A /* RDVTabBarController */,
+				FF5552661F603B41009CC36A /* UIImage+Image.h */,
+				FF5552671F603B41009CC36A /* UIImage+Image.m */,
+				FF5552681F603B41009CC36A /* UIView+TWFrame.h */,
+				FF5552691F603B41009CC36A /* UIView+TWFrame.m */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		FF55525F1F603B41009CC36A /* RDVTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				FF5552601F603B41009CC36A /* RDVTabBar.h */,
+				FF5552611F603B41009CC36A /* RDVTabBar.m */,
+				FF5552621F603B41009CC36A /* RDVTabBarController.h */,
+				FF5552631F603B41009CC36A /* RDVTabBarController.m */,
+				FF5552641F603B41009CC36A /* RDVTabBarItem.h */,
+				FF5552651F603B41009CC36A /* RDVTabBarItem.m */,
+			);
+			path = RDVTabBarController;
+			sourceTree = "<group>";
+		};
+		FF55526A1F603B41009CC36A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FF55526B1F603B41009CC36A /* MainViewController.h */,
+				FF55526C1F603B41009CC36A /* MainViewController.m */,
+				FF55526D1F603B41009CC36A /* NaviViewController.h */,
+				FF55526E1F603B41009CC36A /* NaviViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FF55526F1F603B41009CC36A /* Vc */ = {
+			isa = PBXGroup;
+			children = (
+				FF5552701F603B41009CC36A /* BaseViewController.h */,
+				FF5552711F603B41009CC36A /* BaseViewController.m */,
+				FF55527A1F603B41009CC36A /* PartentViewController.h */,
+				FF55527B1F603B41009CC36A /* PartentViewController.m */,
+				FF5552721F603B41009CC36A /* FourViewController.h */,
+				FF5552731F603B41009CC36A /* FourViewController.m */,
+				FF5552741F603B41009CC36A /* One1ViewController.h */,
+				FF5552751F603B41009CC36A /* One1ViewController.m */,
+				FF5552761F603B41009CC36A /* One2ViewController.h */,
+				FF5552771F603B41009CC36A /* One2ViewController.m */,
+				FF5552781F603B41009CC36A /* OneViewController.h */,
+				FF5552791F603B41009CC36A /* OneViewController.m */,
+				FF55527C1F603B41009CC36A /* ThreeViewController.h */,
+				FF55527D1F603B41009CC36A /* ThreeViewController.m */,
+				FF55527E1F603B41009CC36A /* TwoViewController.h */,
+				FF55527F1F603B41009CC36A /* TwoViewController.m */,
+			);
+			path = Vc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF5552401F603B24009CC36A /* RDV+RT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF5552581F603B24009CC36A /* Build configuration list for PBXNativeTarget "RDV+RT" */;
+			buildPhases = (
+				FF55523D1F603B24009CC36A /* Sources */,
+				FF55523E1F603B24009CC36A /* Frameworks */,
+				FF55523F1F603B24009CC36A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RDV+RT";
+			productName = "RDV+RT";
+			productReference = FF5552411F603B24009CC36A /* RDV+RT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF5552391F603B24009CC36A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "个人";
+				TargetAttributes = {
+					FF5552401F603B24009CC36A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7F3QQKKLR9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF55523C1F603B24009CC36A /* Build configuration list for PBXProject "RDV+RT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF5552381F603B24009CC36A;
+			productRefGroup = FF5552421F603B24009CC36A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF5552401F603B24009CC36A /* RDV+RT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF55523F1F603B24009CC36A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5552541F603B24009CC36A /* LaunchScreen.storyboard in Resources */,
+				FF5552511F603B24009CC36A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF55523D1F603B24009CC36A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5552821F603B41009CC36A /* RDVTabBarItem.m in Sources */,
+				FF5552871F603B41009CC36A /* BaseViewController.m in Sources */,
+				FF5552811F603B41009CC36A /* RDVTabBarController.m in Sources */,
+				FF5552841F603B41009CC36A /* UIView+TWFrame.m in Sources */,
+				FF5552851F603B41009CC36A /* MainViewController.m in Sources */,
+				FF55528B1F603B41009CC36A /* OneViewController.m in Sources */,
+				FF5552491F603B24009CC36A /* AppDelegate.m in Sources */,
+				FF55528D1F603B41009CC36A /* ThreeViewController.m in Sources */,
+				FF55528A1F603B41009CC36A /* One2ViewController.m in Sources */,
+				FF5552831F603B41009CC36A /* UIImage+Image.m in Sources */,
+				FF5552461F603B24009CC36A /* main.m in Sources */,
+				FF55528E1F603B41009CC36A /* TwoViewController.m in Sources */,
+				FF5552861F603B41009CC36A /* NaviViewController.m in Sources */,
+				FF5552891F603B41009CC36A /* One1ViewController.m in Sources */,
+				FF5552881F603B41009CC36A /* FourViewController.m in Sources */,
+				FF5552801F603B41009CC36A /* RDVTabBar.m in Sources */,
+				FF55528C1F603B41009CC36A /* PartentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF5552521F603B24009CC36A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF5552531F603B24009CC36A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF5552561F603B24009CC36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF5552571F603B24009CC36A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF5552591F603B24009CC36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7F3QQKKLR9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RDV+RT/Custom/Libs/PrefixHeader.pch";
+				INFOPLIST_FILE = "RDV+RT/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Moxi.RDV-RT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF55525A1F603B24009CC36A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7F3QQKKLR9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RDV+RT/Custom/Libs/PrefixHeader.pch";
+				INFOPLIST_FILE = "RDV+RT/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Moxi.RDV-RT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF55523C1F603B24009CC36A /* Build configuration list for PBXProject "RDV+RT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5552561F603B24009CC36A /* Debug */,
+				FF5552571F603B24009CC36A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF5552581F603B24009CC36A /* Build configuration list for PBXNativeTarget "RDV+RT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5552591F603B24009CC36A /* Debug */,
+				FF55525A1F603B24009CC36A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF5552391F603B24009CC36A /* Project object */;
+}
