@@ -18,14 +18,16 @@
 		FF5552841F603B41009CC36A /* UIView+TWFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552691F603B41009CC36A /* UIView+TWFrame.m */; };
 		FF5552851F603B41009CC36A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF55526C1F603B41009CC36A /* MainViewController.m */; };
 		FF5552861F603B41009CC36A /* NaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF55526E1F603B41009CC36A /* NaviViewController.m */; };
-		FF5552871F603B41009CC36A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552711F603B41009CC36A /* BaseViewController.m */; };
-		FF5552881F603B41009CC36A /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552731F603B41009CC36A /* FourViewController.m */; };
-		FF5552891F603B41009CC36A /* One1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552751F603B41009CC36A /* One1ViewController.m */; };
-		FF55528A1F603B41009CC36A /* One2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552771F603B41009CC36A /* One2ViewController.m */; };
-		FF55528B1F603B41009CC36A /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552791F603B41009CC36A /* OneViewController.m */; };
-		FF55528C1F603B41009CC36A /* PartentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF55527B1F603B41009CC36A /* PartentViewController.m */; };
-		FF55528D1F603B41009CC36A /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF55527D1F603B41009CC36A /* ThreeViewController.m */; };
-		FF55528E1F603B41009CC36A /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF55527F1F603B41009CC36A /* TwoViewController.m */; };
+		FF55529A1F603CC6009CC36A /* RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552951F603CC6009CC36A /* RTRootNavigationController.m */; };
+		FF55529B1F603CC6009CC36A /* UIViewController+RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552971F603CC6009CC36A /* UIViewController+RTRootNavigationController.m */; };
+		FF5552AE1F604034009CC36A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF55529E1F604034009CC36A /* BaseViewController.m */; };
+		FF5552AF1F604034009CC36A /* PartentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552A01F604034009CC36A /* PartentViewController.m */; };
+		FF5552B01F604034009CC36A /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552A31F604034009CC36A /* FourViewController.m */; };
+		FF5552B11F604034009CC36A /* One1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552A51F604034009CC36A /* One1ViewController.m */; };
+		FF5552B21F604034009CC36A /* One2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552A71F604034009CC36A /* One2ViewController.m */; };
+		FF5552B31F604034009CC36A /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552A91F604034009CC36A /* OneViewController.m */; };
+		FF5552B41F604034009CC36A /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552AB1F604034009CC36A /* ThreeViewController.m */; };
+		FF5552B51F604034009CC36A /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552AD1F604034009CC36A /* TwoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,22 +54,26 @@
 		FF55526C1F603B41009CC36A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		FF55526D1F603B41009CC36A /* NaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaviViewController.h; sourceTree = "<group>"; };
 		FF55526E1F603B41009CC36A /* NaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaviViewController.m; sourceTree = "<group>"; };
-		FF5552701F603B41009CC36A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		FF5552711F603B41009CC36A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		FF5552721F603B41009CC36A /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
-		FF5552731F603B41009CC36A /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
-		FF5552741F603B41009CC36A /* One1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = One1ViewController.h; sourceTree = "<group>"; };
-		FF5552751F603B41009CC36A /* One1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = One1ViewController.m; sourceTree = "<group>"; };
-		FF5552761F603B41009CC36A /* One2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = One2ViewController.h; sourceTree = "<group>"; };
-		FF5552771F603B41009CC36A /* One2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = One2ViewController.m; sourceTree = "<group>"; };
-		FF5552781F603B41009CC36A /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
-		FF5552791F603B41009CC36A /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
-		FF55527A1F603B41009CC36A /* PartentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartentViewController.h; sourceTree = "<group>"; };
-		FF55527B1F603B41009CC36A /* PartentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartentViewController.m; sourceTree = "<group>"; };
-		FF55527C1F603B41009CC36A /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
-		FF55527D1F603B41009CC36A /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
-		FF55527E1F603B41009CC36A /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
-		FF55527F1F603B41009CC36A /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		FF5552941F603CC6009CC36A /* RTRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTRootNavigationController.h; sourceTree = "<group>"; };
+		FF5552951F603CC6009CC36A /* RTRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTRootNavigationController.m; sourceTree = "<group>"; };
+		FF5552961F603CC6009CC36A /* UIViewController+RTRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RTRootNavigationController.h"; sourceTree = "<group>"; };
+		FF5552971F603CC6009CC36A /* UIViewController+RTRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RTRootNavigationController.m"; sourceTree = "<group>"; };
+		FF55529D1F604034009CC36A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		FF55529E1F604034009CC36A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		FF55529F1F604034009CC36A /* PartentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartentViewController.h; sourceTree = "<group>"; };
+		FF5552A01F604034009CC36A /* PartentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartentViewController.m; sourceTree = "<group>"; };
+		FF5552A21F604034009CC36A /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		FF5552A31F604034009CC36A /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		FF5552A41F604034009CC36A /* One1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = One1ViewController.h; sourceTree = "<group>"; };
+		FF5552A51F604034009CC36A /* One1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = One1ViewController.m; sourceTree = "<group>"; };
+		FF5552A61F604034009CC36A /* One2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = One2ViewController.h; sourceTree = "<group>"; };
+		FF5552A71F604034009CC36A /* One2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = One2ViewController.m; sourceTree = "<group>"; };
+		FF5552A81F604034009CC36A /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		FF5552A91F604034009CC36A /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		FF5552AA1F604034009CC36A /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		FF5552AB1F604034009CC36A /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		FF5552AC1F604034009CC36A /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		FF5552AD1F604034009CC36A /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,11 +140,12 @@
 			children = (
 				FF55525D1F603B41009CC36A /* Define.h */,
 				FF55525E1F603B41009CC36A /* PrefixHeader.pch */,
-				FF55525F1F603B41009CC36A /* RDVTabBarController */,
 				FF5552661F603B41009CC36A /* UIImage+Image.h */,
 				FF5552671F603B41009CC36A /* UIImage+Image.m */,
 				FF5552681F603B41009CC36A /* UIView+TWFrame.h */,
 				FF5552691F603B41009CC36A /* UIView+TWFrame.m */,
+				FF55528F1F603CC6009CC36A /* RTRootNavigationController */,
+				FF55525F1F603B41009CC36A /* RDVTabBarController */,
 			);
 			path = Libs;
 			sourceTree = "<group>";
@@ -170,24 +177,59 @@
 		FF55526F1F603B41009CC36A /* Vc */ = {
 			isa = PBXGroup;
 			children = (
-				FF5552701F603B41009CC36A /* BaseViewController.h */,
-				FF5552711F603B41009CC36A /* BaseViewController.m */,
-				FF55527A1F603B41009CC36A /* PartentViewController.h */,
-				FF55527B1F603B41009CC36A /* PartentViewController.m */,
-				FF5552721F603B41009CC36A /* FourViewController.h */,
-				FF5552731F603B41009CC36A /* FourViewController.m */,
-				FF5552741F603B41009CC36A /* One1ViewController.h */,
-				FF5552751F603B41009CC36A /* One1ViewController.m */,
-				FF5552761F603B41009CC36A /* One2ViewController.h */,
-				FF5552771F603B41009CC36A /* One2ViewController.m */,
-				FF5552781F603B41009CC36A /* OneViewController.h */,
-				FF5552791F603B41009CC36A /* OneViewController.m */,
-				FF55527C1F603B41009CC36A /* ThreeViewController.h */,
-				FF55527D1F603B41009CC36A /* ThreeViewController.m */,
-				FF55527E1F603B41009CC36A /* TwoViewController.h */,
-				FF55527F1F603B41009CC36A /* TwoViewController.m */,
+				FF55529C1F604034009CC36A /* P */,
+				FF5552A11F604034009CC36A /* V */,
 			);
 			path = Vc;
+			sourceTree = "<group>";
+		};
+		FF55528F1F603CC6009CC36A /* RTRootNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				FF5552921F603CC6009CC36A /* Classes */,
+			);
+			path = RTRootNavigationController;
+			sourceTree = "<group>";
+		};
+		FF5552921F603CC6009CC36A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FF5552941F603CC6009CC36A /* RTRootNavigationController.h */,
+				FF5552951F603CC6009CC36A /* RTRootNavigationController.m */,
+				FF5552961F603CC6009CC36A /* UIViewController+RTRootNavigationController.h */,
+				FF5552971F603CC6009CC36A /* UIViewController+RTRootNavigationController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FF55529C1F604034009CC36A /* P */ = {
+			isa = PBXGroup;
+			children = (
+				FF55529D1F604034009CC36A /* BaseViewController.h */,
+				FF55529E1F604034009CC36A /* BaseViewController.m */,
+				FF55529F1F604034009CC36A /* PartentViewController.h */,
+				FF5552A01F604034009CC36A /* PartentViewController.m */,
+			);
+			path = P;
+			sourceTree = "<group>";
+		};
+		FF5552A11F604034009CC36A /* V */ = {
+			isa = PBXGroup;
+			children = (
+				FF5552A21F604034009CC36A /* FourViewController.h */,
+				FF5552A31F604034009CC36A /* FourViewController.m */,
+				FF5552A41F604034009CC36A /* One1ViewController.h */,
+				FF5552A51F604034009CC36A /* One1ViewController.m */,
+				FF5552A61F604034009CC36A /* One2ViewController.h */,
+				FF5552A71F604034009CC36A /* One2ViewController.m */,
+				FF5552A81F604034009CC36A /* OneViewController.h */,
+				FF5552A91F604034009CC36A /* OneViewController.m */,
+				FF5552AA1F604034009CC36A /* ThreeViewController.h */,
+				FF5552AB1F604034009CC36A /* ThreeViewController.m */,
+				FF5552AC1F604034009CC36A /* TwoViewController.h */,
+				FF5552AD1F604034009CC36A /* TwoViewController.m */,
+			);
+			path = V;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,23 +303,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF5552B01F604034009CC36A /* FourViewController.m in Sources */,
+				FF5552AF1F604034009CC36A /* PartentViewController.m in Sources */,
+				FF5552B51F604034009CC36A /* TwoViewController.m in Sources */,
+				FF5552B21F604034009CC36A /* One2ViewController.m in Sources */,
 				FF5552821F603B41009CC36A /* RDVTabBarItem.m in Sources */,
-				FF5552871F603B41009CC36A /* BaseViewController.m in Sources */,
+				FF5552AE1F604034009CC36A /* BaseViewController.m in Sources */,
 				FF5552811F603B41009CC36A /* RDVTabBarController.m in Sources */,
 				FF5552841F603B41009CC36A /* UIView+TWFrame.m in Sources */,
 				FF5552851F603B41009CC36A /* MainViewController.m in Sources */,
-				FF55528B1F603B41009CC36A /* OneViewController.m in Sources */,
+				FF5552B31F604034009CC36A /* OneViewController.m in Sources */,
 				FF5552491F603B24009CC36A /* AppDelegate.m in Sources */,
-				FF55528D1F603B41009CC36A /* ThreeViewController.m in Sources */,
-				FF55528A1F603B41009CC36A /* One2ViewController.m in Sources */,
+				FF55529B1F603CC6009CC36A /* UIViewController+RTRootNavigationController.m in Sources */,
 				FF5552831F603B41009CC36A /* UIImage+Image.m in Sources */,
 				FF5552461F603B24009CC36A /* main.m in Sources */,
-				FF55528E1F603B41009CC36A /* TwoViewController.m in Sources */,
 				FF5552861F603B41009CC36A /* NaviViewController.m in Sources */,
-				FF5552891F603B41009CC36A /* One1ViewController.m in Sources */,
-				FF5552881F603B41009CC36A /* FourViewController.m in Sources */,
+				FF5552B11F604034009CC36A /* One1ViewController.m in Sources */,
+				FF5552B41F604034009CC36A /* ThreeViewController.m in Sources */,
 				FF5552801F603B41009CC36A /* RDVTabBar.m in Sources */,
-				FF55528C1F603B41009CC36A /* PartentViewController.m in Sources */,
+				FF55529A1F603CC6009CC36A /* RTRootNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
