@@ -4,7 +4,7 @@
 //
 //  Created by 田伟 on 2017/9/6.
 //  Copyright © 2017年 田伟. All rights reserved.
-//
+//  二级页面继承
 
 #import "BaseViewController.h"
 #import "RDVTabBarController.h"
@@ -22,16 +22,16 @@
      [super viewWillAppear:animated];
 }
 
-//- (void)viewWillDisappear:(BOOL)animated {
+////- (void)viewWillDisappear:(BOOL)animated {
+////    [[self rdv_tabBarController] setTabBarHidden:NO animated:YES];
+////    [super viewWillDisappear:animated];
+////}
+//
+//- (void)viewDidDisappear:(BOOL)animated{
+//    TWLogFunc
 //    [[self rdv_tabBarController] setTabBarHidden:NO animated:YES];
-//    [super viewWillDisappear:animated];
+//    [super viewDidDisappear:animated];
 //}
-
-- (void)viewDidDisappear:(BOOL)animated{
-    TWLogFunc
-    [[self rdv_tabBarController] setTabBarHidden:NO animated:YES];
-    [super viewDidDisappear:animated];
-}
 
 
 @end
